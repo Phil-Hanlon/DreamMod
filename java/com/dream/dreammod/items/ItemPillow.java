@@ -24,8 +24,10 @@ public class ItemPillow extends Item {
 	public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn,
 			EnumHand hand) {
 		
-		playerIn.changeDimension(1);
-		
+		if( worldIn.isRemote ) {
+			
+			playerIn.changeDimension(1);
+		}
 		
 		
 		return super.onItemRightClick(itemStackIn, worldIn, playerIn, hand);
