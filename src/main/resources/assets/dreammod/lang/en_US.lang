@@ -1,0 +1,5 @@
+#Renames the creative-tab
+itemGroup.dream_tab=Dreams
+
+#Items
+item.pillow_item.name=Pillow

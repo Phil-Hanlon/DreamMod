@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dreammod",
+  "name": "Dream Mod",
+  "description": "Makes your dreams come true",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
